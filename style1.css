@@ -1,0 +1,50 @@
+body{
+   font-family: sans-serif; 
+}
+.menu_bar{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: space-between;
+    padding: 0 5%;
+}
+.logo{
+    color: aliceblue;
+    font-size: 30px;
+
+}
+.logo span{
+   color: blue; 
+}
+.menu_bar ul{
+    list-style: none;
+     display: flex;
+}
+.menu_bar ul li{
+    padding: 10px 30px;
+}
+.menu_bar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+.menu_bar ul li a:hover{
+    color: blue;
+}
+.dropdown_menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgb(245, 239, 239);
+}
+.dropdown_menu ul {
+    display: block;
+    margin: 10px;
+}
+.dropdown_menu ul li {
+    width: 150px;
+    padding: 10px;
+}
